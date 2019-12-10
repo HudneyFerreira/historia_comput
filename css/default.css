@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0px !important;
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3{
+  font-size: 56px;
+  font-weight: 800;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888888ad;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}

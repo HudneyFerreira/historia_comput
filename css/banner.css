@@ -1,0 +1,110 @@
+#topo-sec {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90px;
+  padding: 20px 0px
+}
+
+#topo-sec .banner-logo {
+  position: absolute;
+  top: 20px;
+  left: 56px;
+}
+
+#topo-sec .rede-social {
+  float: right;
+  line-height: 70px;
+  overflow: hidden;
+  top: 20px;
+  margin-right: 116px;
+}
+
+#topo-sec .rede-social a.rede-social {
+    background-color: #a933cb;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    float: left;
+}
+
+#topo-sec .rede-social a.rede-social img {
+    width: 30px;
+    display: block;
+}
+
+#banner-sec{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+#banner-sec .banner-video{
+  width: 60%;
+  height: 100%;
+}
+
+#banner-sec .banner-bg{
+  width: 70%;
+  height: 100vh;
+  position: absolute;
+  background-color: #337bcb;
+  z-index: -1;
+  border-radius: 0px 0px 150px 0px;
+}
+
+#banner-sec .banner-text{
+  color: white;
+  width: 40%;
+  height: 100%;
+  z-index: 2;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+#banner-sec .banner-text .banner-tittle{
+  position: relative;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+#banner-sec .banner-video .video-iframe{
+  width: 712px;
+  height: 428px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 140px;
+  box-sizing: border-box;
+  padding: 16px;
+  position: relative;
+  margin-bottom: 32px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+#banner-sec .banner-video .video-iframe::before,
+#banner-sec .banner-video .video-iframe::after {
+    content: "";
+    width: 47.5%;
+    height: 16px;
+    border-radius: 0 0 38px 5px;
+    background-color: #000000;
+    opacity: .3;
+    position: absolute;
+    top: 100%;
+    left: 16px;
+}
+
+#banner-sec .banner-video .video-iframe::after {
+    width: 45.5%;
+    height: 32px;
+    left: 32px;
+    opacity: .15;
+}
